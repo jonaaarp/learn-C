@@ -1,0 +1,354 @@
+Si te refieres al lenguaje de programación C, es prácticamente imposible
+listar “todos” los conceptos con detalle en una sola respuesta, pero sí
+puedo darte un mapa completo de los temas que se estudian en C, desde
+principiante hasta avanzado:
+
+1. Fundamentos
+
+-   ¿Qué es C?
+-   Compilación e interpretación
+-   Estructura de un programa
+-   Función main()
+-   Comentarios (// y /* */)
+-   Archivos .c y .h
+
+2. Variables y tipos de datos
+
+-   Variables
+-   Constantes
+-   Literales
+-   Declaración e inicialización
+-   Alcance (scope)
+-   Duración de almacenamiento
+
+Tipos básicos:
+
+-   char
+-   int
+-   float
+-   double
+-   void
+
+Modificadores:
+
+-   short
+-   long
+-   signed
+-   unsigned
+
+3. Operadores
+
+Aritméticos
+
+-   -   
+
+-   -   
+
+-   -   
+
+-   /
+
+-   %
+
+Relacionales
+
+-   ==
+
+-   !=
+
+-   <
+
+-   
+
+-   <=
+
+-   =
+
+Lógicos
+
+-   &&
+-   ||
+-   !
+
+Asignación
+
+-   =
+-   +=
+-   -=
+-   *=
+-   /=
+-   %=
+
+Incremento y decremento
+
+-   ++ - –
+
+Bit a bit
+
+-   &
+
+-   
+
+-   ^
+
+-   ~
+
+-   <<
+
+-   
+
+Otros
+
+-   Operador ternario ?:
+-   sizeof
+-   Operador coma ,
+
+4. Entrada y salida
+
+Biblioteca stdio.h
+
+-   printf()
+-   scanf()
+-   getchar()
+-   putchar()
+-   fgets()
+-   puts()
+
+5. Estructuras de control
+
+Condicionales
+
+-   if
+-   if-else
+-   else if
+-   switch
+
+Bucles
+
+-   for
+-   while
+-   do-while
+
+Control de flujo
+
+-   break
+-   continue
+-   goto
+-   return
+
+6. Funciones
+
+-   Declaración
+-   Definición
+-   Prototipos
+-   Parámetros
+-   Argumentos
+-   Valor de retorno
+-   Recursividad
+-   Paso por valor
+
+7. Arrays
+
+-   Arrays unidimensionales
+-   Arrays multidimensionales
+-   Inicialización
+-   Recorrido de arrays
+
+8. Cadenas de caracteres
+
+-   Strings
+-   Terminador nulo \0
+-   Manipulación de cadenas
+
+Funciones comunes:
+
+-   strlen()
+-   strcpy()
+-   strncpy()
+-   strcat()
+-   strcmp()
+-   strtok()
+
+9. Punteros
+
+-   Concepto de dirección de memoria
+-   Operador &
+-   Operador *
+-   Desreferenciación
+-   Punteros nulos
+-   Aritmética de punteros
+-   Punteros a punteros
+
+10. Relación entre arrays y punteros
+
+-   Arrays como direcciones
+-   Acceso mediante punteros
+-   Recorrido eficiente
+
+11. Memoria dinámica
+
+Biblioteca stdlib.h
+
+-   malloc()
+-   calloc()
+-   realloc()
+-   free()
+
+Conceptos:
+
+-   Heap
+-   Stack
+-   Fugas de memoria (memory leaks)
+
+12. Estructuras (struct)
+
+-   Declaración
+-   Inicialización
+-   Acceso con .
+-   Acceso mediante punteros ->
+-   Structs anidadas
+
+13. Uniones (union)
+
+-   Compartición de memoria
+-   Diferencias con struct
+
+14. Enumeraciones
+
+-   enum
+-   Valores simbólicos
+
+15. Typedef
+
+-   Alias de tipos
+-   Mejora de legibilidad
+
+16. Preprocesador
+
+Directivas:
+
+-   #include
+-   #define
+-   #undef
+-   #ifdef
+-   #ifndef
+-   #if
+-   #elif
+-   #endif
+
+Macros:
+
+-   Macros simples
+-   Macros con parámetros
+
+17. Archivos
+
+Funciones:
+
+-   fopen()
+-   fclose()
+-   fprintf()
+-   fscanf()
+-   fread()
+-   fwrite()
+-   fseek()
+-   ftell()
+
+Modos:
+
+-   r
+-   w
+-   a
+-   rb
+-   wb
+
+18. Gestión de errores
+
+-   Códigos de retorno
+-   errno
+-   perror()
+-   strerror()
+
+19. Bibliotecas estándar
+
+-   stdio.h
+-   stdlib.h
+-   string.h
+-   math.h
+-   time.h
+-   ctype.h
+-   stdbool.h
+-   stdint.h
+
+20. Conceptos avanzados
+
+-   Punteros a funciones
+-   Callbacks
+-   Arrays de punteros
+-   Structs autorreferenciadas
+-   Listas enlazadas
+-   Pilas (stacks)
+-   Colas (queues)
+-   Árboles
+-   Tablas hash
+-   Manipulación de bits
+-   Optimización de memoria
+
+21. Programación modular
+
+-   Archivos de cabecera
+-   Separación en módulos
+-   Compilación múltiple
+-   Enlazado (linking)
+
+22. Conceptos del compilador
+
+-   Preprocesamiento
+-   Compilación
+-   Ensamblado
+-   Enlazado
+
+23. Conceptos de memoria
+
+-   Stack
+-   Heap
+-   Segmento de datos
+-   Segmento BSS
+-   Segmento de texto
+
+24. Estándares del lenguaje
+
+-   C89/C90
+-   C99
+-   C11
+-   C17
+-   C23
+
+25. Temas profesionales
+
+-   Sistemas embebidos
+-   Programación de sistemas
+-   Sistemas operativos
+-   Controladores (drivers)
+-   Redes
+-   Concurrencia
+-   Interacción con hardware
+
+Ruta recomendada de aprendizaje
+
+1.  Variables y tipos.
+2.  Operadores.
+3.  Condicionales.
+4.  Bucles.
+5.  Funciones.
+6.  Arrays y strings.
+7.  Punteros.
+8.  Memoria dinámica.
+9.  Structs.
+10. Archivos.
+11. Modularización.
+12. Estructuras de datos.
+13. Temas avanzados.
+
+Con dominar esos 13 pasos ya puedes considerarte competente en C a nivel
+profesional.
