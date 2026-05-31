@@ -1,7 +1,4 @@
-Si te refieres al lenguaje de programación C, es prácticamente imposible
-listar “todos” los conceptos con detalle en una sola respuesta, pero sí
-puedo darte un mapa completo de los temas que se estudian en C, desde
-principiante hasta avanzado:
+sí puedo darte un mapa completo de los temas que se estudian en C, desde principiante hasta avanzado:
 
 1. Fundamentos
 
